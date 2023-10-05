@@ -25,6 +25,16 @@ number = (1,2,35,6,4)
 max_num_in_list(number)
 
 # Fourth prompt
+def is_leap_year(a_year):
+        
+        return (a_year % 4 == 0 and a_year % 100 != 0) or a_year % 400 == 0
+
+
+print(is_leap_year(2000))
+
+
+
+# Fifth Prompt
 
 def is_consecutive(b_list):
      return sorted(b_list) == list(range(min(b_list), max(b_list)+1))
